@@ -45,7 +45,7 @@ const columns = [
   },
 ];
 
-const App: React.FC = () => {
+const TableMain: React.FC = () => {
   const [data, setData] = useState<User[]>([]);
 
   useEffect(() => {
@@ -59,4 +59,4 @@ const App: React.FC = () => {
   return <Table columns={columns} dataSource={data} rowKey="id" />;
 };
 
-export default App;
+export default TableMain;

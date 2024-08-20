@@ -1,3 +1,3 @@
 import useNotification from "./hooks/useNotification";
-import App from "./components/Table";
-export { useNotification, App }
+import TableMain from "./components/Table";
+export { useNotification, TableMain }
